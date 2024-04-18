@@ -1,0 +1,619 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 63;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		044E7C2E2BB9A24A00CE356E /* MondayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044E7C2D2BB9A24A00CE356E /* MondayView.swift */; };
+		044E7C302BB9A2D200CE356E /* TuesdayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044E7C2F2BB9A2D200CE356E /* TuesdayView.swift */; };
+		044E7C322BB9A37600CE356E /* WednesdayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044E7C312BB9A37600CE356E /* WednesdayView.swift */; };
+		044E7C342BB9A3D200CE356E /* ThursdayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044E7C332BB9A3D200CE356E /* ThursdayView.swift */; };
+		044E7C362BB9A46200CE356E /* FridayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044E7C352BB9A46200CE356E /* FridayView.swift */; };
+		048409BA2BB492E20083E82D /* Amorsis_GYM_2_0App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048409B92BB492E20083E82D /* Amorsis_GYM_2_0App.swift */; };
+		048409BC2BB492E20083E82D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048409BB2BB492E20083E82D /* ContentView.swift */; };
+		048409BE2BB492E20083E82D /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048409BD2BB492E20083E82D /* Item.swift */; };
+		048409C02BB492E40083E82D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 048409BF2BB492E40083E82D /* Assets.xcassets */; };
+		048409C32BB492E40083E82D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 048409C22BB492E40083E82D /* Preview Assets.xcassets */; };
+		048409CD2BB492E50083E82D /* Amorsis_GYM_2_0Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048409CC2BB492E50083E82D /* Amorsis_GYM_2_0Tests.swift */; };
+		048409D72BB492E50083E82D /* Amorsis_GYM_2_0UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048409D62BB492E50083E82D /* Amorsis_GYM_2_0UITests.swift */; };
+		048409D92BB492E50083E82D /* Amorsis_GYM_2_0UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048409D82BB492E50083E82D /* Amorsis_GYM_2_0UITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		048409C92BB492E50083E82D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 048409AE2BB492E20083E82D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 048409B52BB492E20083E82D;
+			remoteInfo = "Amorsis GYM 2.0";
+		};
+		048409D32BB492E50083E82D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 048409AE2BB492E20083E82D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 048409B52BB492E20083E82D;
+			remoteInfo = "Amorsis GYM 2.0";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		044E7C2D2BB9A24A00CE356E /* MondayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MondayView.swift; sourceTree = "<group>"; };
+		044E7C2F2BB9A2D200CE356E /* TuesdayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TuesdayView.swift; sourceTree = "<group>"; };
+		044E7C312BB9A37600CE356E /* WednesdayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WednesdayView.swift; sourceTree = "<group>"; };
+		044E7C332BB9A3D200CE356E /* ThursdayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThursdayView.swift; sourceTree = "<group>"; };
+		044E7C352BB9A46200CE356E /* FridayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FridayView.swift; sourceTree = "<group>"; };
+		048409B62BB492E20083E82D /* Amorsis GYM 2.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Amorsis GYM 2.0.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		048409B92BB492E20083E82D /* Amorsis_GYM_2_0App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Amorsis_GYM_2_0App.swift; sourceTree = "<group>"; };
+		048409BB2BB492E20083E82D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		048409BD2BB492E20083E82D /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		048409BF2BB492E40083E82D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		048409C22BB492E40083E82D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		048409C82BB492E50083E82D /* Amorsis GYM 2.0Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Amorsis GYM 2.0Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		048409CC2BB492E50083E82D /* Amorsis_GYM_2_0Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Amorsis_GYM_2_0Tests.swift; sourceTree = "<group>"; };
+		048409D22BB492E50083E82D /* Amorsis GYM 2.0UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Amorsis GYM 2.0UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		048409D62BB492E50083E82D /* Amorsis_GYM_2_0UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Amorsis_GYM_2_0UITests.swift; sourceTree = "<group>"; };
+		048409D82BB492E50083E82D /* Amorsis_GYM_2_0UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Amorsis_GYM_2_0UITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		048409B32BB492E20083E82D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		048409C52BB492E50083E82D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		048409CF2BB492E50083E82D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		048409AD2BB492E20083E82D = {
+			isa = PBXGroup;
+			children = (
+				048409B82BB492E20083E82D /* Amorsis GYM 2.0 */,
+				048409CB2BB492E50083E82D /* Amorsis GYM 2.0Tests */,
+				048409D52BB492E50083E82D /* Amorsis GYM 2.0UITests */,
+				048409B72BB492E20083E82D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		048409B72BB492E20083E82D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				048409B62BB492E20083E82D /* Amorsis GYM 2.0.app */,
+				048409C82BB492E50083E82D /* Amorsis GYM 2.0Tests.xctest */,
+				048409D22BB492E50083E82D /* Amorsis GYM 2.0UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		048409B82BB492E20083E82D /* Amorsis GYM 2.0 */ = {
+			isa = PBXGroup;
+			children = (
+				048409B92BB492E20083E82D /* Amorsis_GYM_2_0App.swift */,
+				048409BB2BB492E20083E82D /* ContentView.swift */,
+				048409BD2BB492E20083E82D /* Item.swift */,
+				048409BF2BB492E40083E82D /* Assets.xcassets */,
+				048409C12BB492E40083E82D /* Preview Content */,
+				044E7C2D2BB9A24A00CE356E /* MondayView.swift */,
+				044E7C2F2BB9A2D200CE356E /* TuesdayView.swift */,
+				044E7C312BB9A37600CE356E /* WednesdayView.swift */,
+				044E7C332BB9A3D200CE356E /* ThursdayView.swift */,
+				044E7C352BB9A46200CE356E /* FridayView.swift */,
+			);
+			path = "Amorsis GYM 2.0";
+			sourceTree = "<group>";
+		};
+		048409C12BB492E40083E82D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				048409C22BB492E40083E82D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		048409CB2BB492E50083E82D /* Amorsis GYM 2.0Tests */ = {
+			isa = PBXGroup;
+			children = (
+				048409CC2BB492E50083E82D /* Amorsis_GYM_2_0Tests.swift */,
+			);
+			path = "Amorsis GYM 2.0Tests";
+			sourceTree = "<group>";
+		};
+		048409D52BB492E50083E82D /* Amorsis GYM 2.0UITests */ = {
+			isa = PBXGroup;
+			children = (
+				048409D62BB492E50083E82D /* Amorsis_GYM_2_0UITests.swift */,
+				048409D82BB492E50083E82D /* Amorsis_GYM_2_0UITestsLaunchTests.swift */,
+			);
+			path = "Amorsis GYM 2.0UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		048409B52BB492E20083E82D /* Amorsis GYM 2.0 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 048409DC2BB492E50083E82D /* Build configuration list for PBXNativeTarget "Amorsis GYM 2.0" */;
+			buildPhases = (
+				048409B22BB492E20083E82D /* Sources */,
+				048409B32BB492E20083E82D /* Frameworks */,
+				048409B42BB492E20083E82D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Amorsis GYM 2.0";
+			productName = "Amorsis GYM 2.0";
+			productReference = 048409B62BB492E20083E82D /* Amorsis GYM 2.0.app */;
+			productType = "com.apple.product-type.application";
+		};
+		048409C72BB492E50083E82D /* Amorsis GYM 2.0Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 048409DF2BB492E50083E82D /* Build configuration list for PBXNativeTarget "Amorsis GYM 2.0Tests" */;
+			buildPhases = (
+				048409C42BB492E50083E82D /* Sources */,
+				048409C52BB492E50083E82D /* Frameworks */,
+				048409C62BB492E50083E82D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				048409CA2BB492E50083E82D /* PBXTargetDependency */,
+			);
+			name = "Amorsis GYM 2.0Tests";
+			productName = "Amorsis GYM 2.0Tests";
+			productReference = 048409C82BB492E50083E82D /* Amorsis GYM 2.0Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		048409D12BB492E50083E82D /* Amorsis GYM 2.0UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 048409E22BB492E50083E82D /* Build configuration list for PBXNativeTarget "Amorsis GYM 2.0UITests" */;
+			buildPhases = (
+				048409CE2BB492E50083E82D /* Sources */,
+				048409CF2BB492E50083E82D /* Frameworks */,
+				048409D02BB492E50083E82D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				048409D42BB492E50083E82D /* PBXTargetDependency */,
+			);
+			name = "Amorsis GYM 2.0UITests";
+			productName = "Amorsis GYM 2.0UITests";
+			productReference = 048409D22BB492E50083E82D /* Amorsis GYM 2.0UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		048409AE2BB492E20083E82D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					048409B52BB492E20083E82D = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					048409C72BB492E50083E82D = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 048409B52BB492E20083E82D;
+					};
+					048409D12BB492E50083E82D = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 048409B52BB492E20083E82D;
+					};
+				};
+			};
+			buildConfigurationList = 048409B12BB492E20083E82D /* Build configuration list for PBXProject "Amorsis GYM 2.0" */;
+			compatibilityVersion = "Xcode 15.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 048409AD2BB492E20083E82D;
+			productRefGroup = 048409B72BB492E20083E82D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				048409B52BB492E20083E82D /* Amorsis GYM 2.0 */,
+				048409C72BB492E50083E82D /* Amorsis GYM 2.0Tests */,
+				048409D12BB492E50083E82D /* Amorsis GYM 2.0UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		048409B42BB492E20083E82D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				048409C32BB492E40083E82D /* Preview Assets.xcassets in Resources */,
+				048409C02BB492E40083E82D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		048409C62BB492E50083E82D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		048409D02BB492E50083E82D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		048409B22BB492E20083E82D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				048409BC2BB492E20083E82D /* ContentView.swift in Sources */,
+				044E7C302BB9A2D200CE356E /* TuesdayView.swift in Sources */,
+				048409BE2BB492E20083E82D /* Item.swift in Sources */,
+				044E7C322BB9A37600CE356E /* WednesdayView.swift in Sources */,
+				044E7C2E2BB9A24A00CE356E /* MondayView.swift in Sources */,
+				044E7C362BB9A46200CE356E /* FridayView.swift in Sources */,
+				044E7C342BB9A3D200CE356E /* ThursdayView.swift in Sources */,
+				048409BA2BB492E20083E82D /* Amorsis_GYM_2_0App.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		048409C42BB492E50083E82D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				048409CD2BB492E50083E82D /* Amorsis_GYM_2_0Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		048409CE2BB492E50083E82D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				048409D72BB492E50083E82D /* Amorsis_GYM_2_0UITests.swift in Sources */,
+				048409D92BB492E50083E82D /* Amorsis_GYM_2_0UITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		048409CA2BB492E50083E82D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 048409B52BB492E20083E82D /* Amorsis GYM 2.0 */;
+			targetProxy = 048409C92BB492E50083E82D /* PBXContainerItemProxy */;
+		};
+		048409D42BB492E50083E82D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 048409B52BB492E20083E82D /* Amorsis GYM 2.0 */;
+			targetProxy = 048409D32BB492E50083E82D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		048409DA2BB492E50083E82D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		048409DB2BB492E50083E82D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		048409DD2BB492E50083E82D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Amorsis GYM 2.0/Preview Content\"";
+				DEVELOPMENT_TEAM = 96PD3W229K;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SarnoldFly.Amorsis-GYM-2-0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		048409DE2BB492E50083E82D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Amorsis GYM 2.0/Preview Content\"";
+				DEVELOPMENT_TEAM = 96PD3W229K;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SarnoldFly.Amorsis-GYM-2-0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		048409E02BB492E50083E82D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BTLU92MPRR;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SarnoldFly.Amorsis-GYM-2-0Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Amorsis GYM 2.0.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Amorsis GYM 2.0";
+			};
+			name = Debug;
+		};
+		048409E12BB492E50083E82D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BTLU92MPRR;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SarnoldFly.Amorsis-GYM-2-0Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Amorsis GYM 2.0.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Amorsis GYM 2.0";
+			};
+			name = Release;
+		};
+		048409E32BB492E50083E82D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BTLU92MPRR;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SarnoldFly.Amorsis-GYM-2-0UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Amorsis GYM 2.0";
+			};
+			name = Debug;
+		};
+		048409E42BB492E50083E82D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BTLU92MPRR;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SarnoldFly.Amorsis-GYM-2-0UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Amorsis GYM 2.0";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		048409B12BB492E20083E82D /* Build configuration list for PBXProject "Amorsis GYM 2.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				048409DA2BB492E50083E82D /* Debug */,
+				048409DB2BB492E50083E82D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		048409DC2BB492E50083E82D /* Build configuration list for PBXNativeTarget "Amorsis GYM 2.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				048409DD2BB492E50083E82D /* Debug */,
+				048409DE2BB492E50083E82D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		048409DF2BB492E50083E82D /* Build configuration list for PBXNativeTarget "Amorsis GYM 2.0Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				048409E02BB492E50083E82D /* Debug */,
+				048409E12BB492E50083E82D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		048409E22BB492E50083E82D /* Build configuration list for PBXNativeTarget "Amorsis GYM 2.0UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				048409E32BB492E50083E82D /* Debug */,
+				048409E42BB492E50083E82D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 048409AE2BB492E20083E82D /* Project object */;
+}
